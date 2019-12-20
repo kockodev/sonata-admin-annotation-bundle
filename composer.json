@@ -1,0 +1,27 @@
+{
+    "name":         "rapemer/sonata-admin-annotation-bundle",
+    "description":  "Manage Sonata Form, Data, List and ShowMapper over annotations",
+    "keywords":     ["ibrows", "sonata", "annotation"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":     "Mike Meier",
+            "email":    "mike.meier@ibrows.ch"
+        },
+        {
+            "name":     "Lukas Brzak",
+            "email":    "lukas.brzak@email.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": ">=2.0",
+        "rapemer/annotation-reader": "*"
+    },
+    "autoload": {
+        "psr-0": { "Ibrows\\Bundle\\SonataAdminAnnotationBundle": "" }
+    },
+    "target-dir": "Ibrows/Bundle/SonataAdminAnnotationBundle",
+    "minimum-stability": "dev"
+}
